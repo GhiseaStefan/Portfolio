@@ -14,6 +14,13 @@ font-size: 38px;
 margin: 20px 0 60px 0;
 `
 
+export const Message = styled.p`
+color: #ff6e00;
+position: absolute;
+font-size: 18px;
+top: 15%;
+`
+
 export const SkillsContainer = styled.div`
 display: flex;
 `

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, SkillImage, SkillImageContainer, SkillsContainer, Title } from './SkillsStyles'
+import { Container, Message, SkillImage, SkillImageContainer, SkillsContainer, Title } from './SkillsStyles'
 
 const Skills: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -15,6 +15,7 @@ const Skills: React.FC = () => {
     return (
         <Container>
             <Title>Skills</Title>
+            <Message>Click Me!</Message>
             <SkillsContainer>
                 {cards.map((c, index) => (
                     <SkillImageContainer key={index} style={{ transform: `translate(calc(${(currentIndex) * -340}px - 50%), -50%)` }} onClick={() => handleCardClick(index)}>
