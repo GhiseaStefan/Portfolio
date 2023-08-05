@@ -16,6 +16,10 @@ height: 92px;
 display: flex;
 align-items: center;
 overflow: hidden;
+
+@media (max-width:575px) {
+  height: 52px;
+}
 `
 
 export const Content = styled.div`
@@ -27,9 +31,15 @@ animation: ${slideLeftAnimation} 10s linear infinite;
 export const ContentText = styled.h2`
 font-size: 42.75px;
 text-transform: uppercase;
+@media (max-width:575px) {
+  font-size: 23px;      
+}
 `
 
 export const ContentDot = styled(GoDotFill)`
 font-size: 30px;
 margin: 0 20px;
+@media (max-width:575px) {
+  font-size: 16px;      
+}
 `

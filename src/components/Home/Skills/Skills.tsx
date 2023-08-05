@@ -15,10 +15,10 @@ const Skills: React.FC = () => {
     return (
         <Container>
             <Title>Skills</Title>
-            <Message>Click Me!</Message>
+            <Message>Click Next Card!</Message>
             <SkillsContainer>
                 {cards.map((c, index) => (
-                    <SkillImageContainer key={index} style={{ transform: `translate(calc(${(currentIndex) * -340}px - 50%), -50%)` }} onClick={() => handleCardClick(index)}>
+                    <SkillImageContainer currentIndex={currentIndex} key={index} onClick={() => handleCardClick(index)}>
                         <SkillImage src={`/images/SkillCards/${c}.jpg`} />
                     </SkillImageContainer>
                 ))}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { InfoContainer, InfoHeader, InfoImage, InfoDesc, InfoHeaderContainer, ResumeContainer, ResumeFrame, ResumeImage, ResumeImageContainer } from './AboutStyles';
+import { InfoContainer, InfoHeader, InfoImage, InfoDesc, InfoHeaderContainer, ResumeContainer, ResumeFrame, ResumeImage, ResumeImageContainer, ResumeTitle } from './AboutStyles';
 
 const About: React.FC = () => {
     return (
@@ -16,7 +16,7 @@ const About: React.FC = () => {
                 </InfoDesc>
             </InfoContainer>
             <ResumeContainer>
-                <InfoHeader>My Resume</InfoHeader>
+                <ResumeTitle>My Resume</ResumeTitle>
                 <ResumeFrame>
                     <ResumeImageContainer>
                         <ResumeImage src='/images/CV.jpg' />
