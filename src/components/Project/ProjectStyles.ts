@@ -60,51 +60,28 @@ text-decoration: none;
 color: #000;
 `
 
-export const ItemsContainer = styled.div`
+export const VideoContainer = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-bottom: 100px;
+margin-bottom: 150px;
 `
 
-export const Item = styled.div`
-margin-top: 40px;
-width: 80%;
-display: flex;
-flex-direction: column;
-`
+export const VideoWrapper = styled.div`
+width: 1280px;
+border-radius: 10px;
+overflow: hidden;
 
-export const ItemText = styled.h2`
-font-size: 20px;
-margin-bottom: 10px;
 
-@media (max-width:575px) {
-    font-size: 16px;
+@media (max-width:1440px) {
+    width: 768px;
 }
-
-@media (max-width:575px) {
-    font-size: 12px;   
-}
-`
-
-export const ItemImageContainer = styled.div`
-width: 80%;
-height: 700px;
-align-self: center;
-margin-bottom: 40px;
 
 @media (max-width:768px) {
-    height: 450px;
+    width: 575px;
 }
 
 @media (max-width:575px) {
-    height: 300px;   
+    width: 352px;
 }
-`
-
-export const ItemImage = styled.img`
-width: 100%;
-height: 100%;
-border-radius: 20px;
-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 `

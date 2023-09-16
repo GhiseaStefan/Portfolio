@@ -18,5 +18,5 @@ export interface ProjectProps {
     header: string;
     desc: string;
     gitPath: string;
-    items: ProjectItem[];
+    videoUrl: string;
 }

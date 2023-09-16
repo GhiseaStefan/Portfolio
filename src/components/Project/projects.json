@@ -1,58 +1,23 @@
 [
     {
         "path": "/project01",
-        "header": "Clothing eCommerce with AI Recommendation",
-        "desc": "This website uses a machine learning model to allow customers to upload images of clothing items. The model analyzes the images and suggests suitable products, streamlining the shopping process and saving customers' time. Additionally, by integrating an advanced natural language processing model into the site's search function, it enhances understanding of the customer's context and intent, providing more relevant search results and improving the efficiency and satisfaction of the user shopping experience.",
-        "gitPath": "https://github.com/GhiseaStefan/licenta-app",
-        "items": [
-            {
-                "text": "Home",
-                "src": "/images/Wearzi/img1.png"
-            },
-            {
-                "text": "Clothes Page",
-                "src": "/images/Wearzi/img2.png"
-            },
-            {
-                "text": "Account Information",
-                "src": "/images/Wearzi/img3.png"
-            },
-            {
-                "text": "Uploading Image for Reference",
-                "src": "/images/Wearzi/img4.png"
-            },
-            {
-                "text": "Obtaining Results via Tensorflow Model",
-                "src": "/images/Wearzi/img5.png"
-            }
-        ]
+        "header": "Wearzi",
+        "desc": "1 - Usage of a machine learning model to allow customers to upload images of clothing items. The model analyzes the images and suggests suitable products, streamlining the shopping process and saving customers' time.2 - Applying a natural language processing model into the site's search function, it enhances understanding of the customer's context and intent, providing more relevant search results and improving the efficiency and satisfaction of the user shopping experience.",
+        "gitPath": "https://github.com/GhiseaStefan/Wearzi",
+        "videoUrl": "/videos/wearzi.mp4"
     },
     {
         "path": "/project02",
         "header": "Notes",
-        "desc": "With the help of this website, you can enjoy the flexibility of organizing your notes in folders, allowing you to structure and group your thoughts and information according to your preferences. Each folder acts as a container, enabling you to keep related notes together, making it easier to find and access them when needed.",
+        "desc": "With the help of this website (MERN Stack), you can enjoy writing notes and have the flexibility of organizing your notes in folders, allowing you to structure and group your thoughts and information according to your preferences. Each folder acts as a container, enabling you to keep related notes together, making it easier to find and access them when needed.",
         "gitPath": "https://github.com/GhiseaStefan/Notes",
-        "items": [
-            {
-                "text": "Home",
-                "src": "/images/Notes/img1.png"
-            },
-            {
-                "text": "View Note",
-                "src": "/images/Notes/img2.png"
-            },
-            {
-                "text": "Edit Note",
-                "src": "/images/Notes/img3.png"
-            },
-            {
-                "text": "Folders",
-                "src": "/images/Notes/img4.png"
-            },
-            {
-                "text": "Create Note",
-                "src": "/images/Notes/img5.png"
-            }
-        ]
+        "videoUrl": "/videos/notes.mp4"
+    },
+    {
+        "path": "/project03",
+        "header": "Thundera",
+        "desc": "This project combines the power of the MERN stack to create a feature-rich online shopping experience, complete with secure payment processing through Stripe.",
+        "gitPath": "https://github.com/GhiseaStefan/Thundera",
+        "videoUrl": "/videos/thundera.mp4"
     }
 ]

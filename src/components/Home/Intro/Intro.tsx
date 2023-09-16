@@ -20,7 +20,7 @@ const Intro: React.FC = () => {
                 </InfoBtn>
             </InfoContainer>
             <ImageContainer mounted={mounted}>
-                <ImageProfile src='/images/profile-picture2.png' />
+                <ImageProfile src='/images/profile-picture.png' />
             </ImageContainer>
         </IntroContainer>
     )

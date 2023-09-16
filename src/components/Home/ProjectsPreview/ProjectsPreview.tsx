@@ -5,16 +5,22 @@ import ProjectPreviewSingle from './ProjectPreviewSingle/ProjectPreviewSingle'
 const projects = [
     {
         imageSrc: 'images/Wearzi/Main.png',
-        title: 'Clothing eCommerce with AI Recommendation',
-        desc: `This (MERN Stack) website uses a machine learning model to allow customers to upload images of clothing items. The model analyzes the images and suggests suitable products, streamlining the shopping process and saving customers' time. Additionally, by integrating an advanced natural language processing model into the site's search function, it enhances understanding of the customer's context and intent, providing more relevant search results and improving the efficiency and satisfaction of the user shopping experience.`,
+        title: 'Wearzi',
+        desc: `Basic E-Commerce Website with 2 special features`,
         path: '/project01'
     },
     {
         imageSrc: 'images/Notes/Main.png',
         title: 'Notes',
-        desc: `With the help of this website (MERN Stack), you can enjoy the flexibility of organizing your notes in folders, allowing you to structure and group your thoughts and information according to your preferences. Each folder acts as a container, enabling you to keep related notes together, making it easier to find and access them when needed.`,
+        desc: `Write, Edit and Delete Notes !`,
         path: '/project02'
     },
+    {
+        imageSrc: 'images/Thundera/Main.png',
+        title: 'Thundera',
+        desc: `E-commerce for Techonlogy Items with Stripe Integration`,
+        path: '/project03'
+    }
 ]
 
 const ProjectsPreview: React.FC = () => {

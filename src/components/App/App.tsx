@@ -13,7 +13,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           {projects.map((project) => (
-            <Route path={project.path} element={<Project header={project.header} desc={project.desc} gitPath={project.gitPath} items={project.items} />} />
+            <Route path={project.path} element={<Project header={project.header} desc={project.desc} gitPath={project.gitPath} videoUrl={project.videoUrl} />} />
           ))}
         </Routes>
       </Suspense>
